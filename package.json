@@ -1,0 +1,28 @@
+{
+  "name": "auth1-project",
+  "version": "1.0.0",
+  "description": "athuentication login and create account demonstration",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkuenzinger/node-auth1-project.git"
+  },
+  "author": "Justin.Kuenzinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkuenzinger/node-auth1-project/issues"
+  },
+  "homepage": "https://github.com/jkuenzinger/node-auth1-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "knex": "^0.21.0",
+    "nodemon": "^2.0.3",
+    "sqlite3": "^4.1.1"
+  }
+}
